@@ -1,7 +1,7 @@
 @media (min-width: 950px) {
     .main-container {
-        max-width: 950px;
-        padding: 80px 20px;
+        max-width: 960px;
+        padding: 80px 20px 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -10,7 +10,6 @@
 
     .main--head {
         margin: 0;
-        padding: 0;
         width: 100%;
         max-width: 350px;
         text-align: start;
@@ -48,10 +47,8 @@
     }
 
     .main--ratings {
-        width: 100%;
         height: 7vh;
         max-width: 370px;
-        margin: 15px 0;
         padding-left: 15px;
         flex-direction: row;
         align-items: center;
@@ -85,9 +82,9 @@
     }
 
     .main--users {
-        height: 12vh;
+        height: 200px;
         max-width: 350px;
-        min-height: 200px;
+        max-height: 300px;
         margin-bottom: 0;
         padding: 31px 26px;
     }
@@ -131,6 +128,10 @@
     .use-two {
         margin-top: 15px;
         margin-right: 15px;
+    }
+
+    .use-two .main-users--description p {
+        letter-spacing: .4px;
     }
 
     .use-three {
