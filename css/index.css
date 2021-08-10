@@ -1,0 +1,163 @@
+:root {
+    --Dark-Magenta: hsl(300, 43%, 22%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Spartan, Helvetica, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 375px;
+    min-width: 280px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.main--head {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.main--head h1 {
+    padding-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 780;
+    color: var(--Dark-Magenta);
+}
+
+.main--head h1 span {
+    padding: 0 10px;
+    font-size: 3.5rem;
+    font-weight: 750;
+}
+
+.main--head p {
+    padding: 0 10px;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    letter-spacing: .5px;
+    color: hsl(303, 10%, 53%);
+}
+
+.main--head p span {
+    font-size: 1.54rem;
+}
+
+.main--section-ratings {
+    margin-top: 40px;
+}
+
+.main--ratings {
+    width: 100%;
+    height: 14vh;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.main--ratings figure img {
+    padding: 0 3px 10px;
+}
+
+.main--ratings h3 {
+    font-size: 1.4rem;
+    letter-spacing: .4px;
+    color: var(--Dark-Magenta);
+}
+
+.main--section-users {
+    margin-top: 50px;
+}
+
+.main--users {
+    width: 100%;
+    height: 42vh;
+    min-height: 250px;
+    padding: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: var(--Dark-Magenta);
+    border-radius: 8px;
+}
+
+.main--perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main--photo-colton {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    background-image: url(../images/image-colton.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main--photo-irene {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    background-image: url(../images/image-irene.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main--photo-anne {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    background-image: url(../images/image-anne.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main--perfil h3 {
+    padding-bottom: 4px;
+    font-size: 1.4rem;
+    color: var(--White);
+    letter-spacing: 1px;
+}
+
+.main--perfil p {
+    font-size: 1.4rem;
+    letter-spacing: 1.1px;
+    color: hsl(333, 80%, 67%)
+}
+
+.main-users--description p {
+    font-size: 1.35rem;
+    color: var(--White);
+    letter-spacing: 1px;
+    line-height: 2.2rem;
+}
+
+
