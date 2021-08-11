@@ -1,6 +1,6 @@
-@media (min-width: 950px) {
+@media (min-width: 980px) {
     .main-container {
-        max-width: 960px;
+        max-width: 980px;
         padding: 80px 20px 70px;
         display: flex;
         justify-content: space-between;
