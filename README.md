@@ -18,7 +18,7 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://nfd-cesar.github.io/Seccion-de-prueba-social/)
 
 ## My process
 ### Built with
