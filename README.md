@@ -9,7 +9,7 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
   - HTML & CSS
 
 - Author
-  - Frontend Mentor: [ramez-cesar](https://www.frontendmentor.io/profile/ramez-cesar)
+  - Frontend Mentor: [César Ramírez](https://www.frontendmentor.io/profile/ramez-cesar)
   - Twitter: [César Ramírez](https://twitter.com/ramez_cesar)
 
 ### Screenshot
